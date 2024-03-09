@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html
+{
+    font-family: Roboto, sans-serif;
+}
+
 body
 {
     height: 100vh;
@@ -35,7 +40,6 @@ body
     text-decoration: none;
     font-size: 16px;
     color: #e5e7eb;
-    font-family: Roboto, sans-serif;
 }
 
 .upper_header img
@@ -48,6 +52,8 @@ body
 .lower_header
 {
     display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .lower_header h1
@@ -55,7 +61,14 @@ body
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    font-family: Roboto, sans-serif;
+    margin: 5px;
+}
+
+.lower_header p
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 5px;
 }
 
 .lower_header_right
