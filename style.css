@@ -110,7 +110,7 @@ body
 .content_imgs_container
 {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
@@ -118,22 +118,26 @@ body
 
 .content_imgs
 {
-    outline-color: #3882F6;
-    outline-style: solid;
-    border-radius: 10px;
-    max-height: 200px;
-    max-width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    text-align: center;
 }
 
 .content_imgs img
 {
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-color: #3882F6;
 }
 
 .content_quote
 {
     background-color: grey;
+    margin-top: 20px;
 }
 
 .content_sign_up
