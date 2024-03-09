@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body
 {
     height: 100vh;
@@ -9,6 +10,27 @@ body
 #header
 {
     background-color: #1F2937;
+}
+
+.upper_header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper_header_links ul li
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+.upper_header_links a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FaF8;
+    font-family: Roboto, sans-serif;
 }
 
 .upper_header img
@@ -46,5 +68,5 @@ body
 
 #footer
 {
-    background-color: grey;
+    background-color: #1F2937;
 }
