@@ -45,7 +45,20 @@ body
     margin-left: 80px;
 }
 
-.header_img_holder
+.lower_header
+{
+    display: flex;
+}
+
+.lower_header h1
+{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+}
+
+.lower_header_right
 {
     background-color: gray;
 }
