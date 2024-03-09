@@ -74,6 +74,15 @@ body
 .lower_header_right
 {
     background-color: gray;
+    display: flex;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.lower_header_right img
+{
+    height: 100%;
+    width: 100%;
 }
 
 .lower_header button
