@@ -77,12 +77,16 @@ body
     display: flex;
     max-height: 500px;
     max-width: 500px;
+    outline-style: solid;
+    border-radius: 50px;
+    outline-color: #3882F6;
 }
 
 .lower_header_right img
 {
     height: 100%;
     width: 100%;
+    border-radius: 50px;
 }
 
 .lower_header button
@@ -103,9 +107,22 @@ body
     text-align: center;
 }
 
+.content_imgs_container
+{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .content_imgs
 {
-    background-color: blue;
+    outline-color: #3882F6;
+    outline-style: solid;
+    border-radius: 10px;
+    min-width: 80px;
+    min-height: 80px;
 }
 
 .content_quote
