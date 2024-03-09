@@ -1,6 +1,32 @@
+body
+{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#header
+{
+    background-color: #1F2937;
+}
+
+.upper_header img
+{
+    max-width: 80px;
+    max-height: 80px;
+}
+
 .header_img_holder
 {
     background-color: gray;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .content_imgs
@@ -16,4 +42,9 @@
 .content_sign_up
 {
     background-color: blue;
+}
+
+#footer
+{
+    background-color: grey;
 }
