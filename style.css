@@ -105,12 +105,12 @@ body
     flex-direction: column;
     flex-grow: 1;
     text-align: center;
+    gap: 20px;
 }
 
 .content_imgs_container
 {
     display: flex;
-    margin-bottom: 30px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
@@ -136,7 +136,7 @@ body
 .content_quote
 {
     background-color: #e5e7eb;
-    padding: 20px 40px;
+    padding: 10px 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -160,10 +160,31 @@ body
 
 .content_sign_up
 {
-    background-color: blue;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-self: center;
+    display: flex;
+    padding: 20px;
+}
+
+.sign_up_text
+{
+    color: #F9FAF8;
+    text-align: start;
+}
+
+.content_sign_up h3
+{
+    margin: 0px 10px;
+}
+
+.content_sign_up p
+{
+    margin: 10px 10px;
 }
 
 #footer
 {
     background-color: #1F2937;
+    flex-grow: 1;
 }
