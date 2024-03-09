@@ -76,6 +76,16 @@ body
     background-color: gray;
 }
 
+.lower_header button
+{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 90px;
+    margin-top: 20px;
+}
+
 #content
 {
     display: flex;
