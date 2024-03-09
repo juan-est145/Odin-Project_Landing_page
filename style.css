@@ -44,8 +44,8 @@ body
 
 .upper_header img
 {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 40px;
+    max-height: 40px;
     margin-left: 80px;
 }
 
@@ -75,8 +75,8 @@ body
 {
     background-color: gray;
     display: flex;
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 300px;
     outline-style: solid;
     border-radius: 50px;
     outline-color: #3882F6;
@@ -118,7 +118,6 @@ body
 
 .content_imgs
 {
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     max-width: 100px;
