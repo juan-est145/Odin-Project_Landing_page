@@ -196,17 +196,15 @@ body
     min-width: 100px;
     min-height: 30px;
     align-self: center;
-
-    /*background-color: #3882F6;
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    min-width: 90px;
-    margin-top: 20px;*/
 }
 
 #footer
 {
     background-color: #1F2937;
     flex-grow: 1;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
